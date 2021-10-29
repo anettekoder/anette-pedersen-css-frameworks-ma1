@@ -1,0 +1,22 @@
+
+
+.col-lg {
+  width: 357px;
+  height: 357px;
+  background: $light;
+  margin: 5px;
+
+  &--style1 {
+    background: white;
+    border-style: solid 1px #C32C72;
+  }
+}
+
+.row {
+    background: yellow;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
