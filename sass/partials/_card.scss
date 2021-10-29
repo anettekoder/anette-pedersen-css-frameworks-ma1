@@ -1,22 +1,24 @@
-
-
 .col-lg {
   width: 357px;
   height: 357px;
   background: $light;
-  margin: 5px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: $box-shadow;
 
   &--style1 {
     background: white;
-    border-style: solid 1px #C32C72;
+    border: solid 3px $secondary;
+  }
+  &--style2 {
+    background: $secondary;
+    border: solid 3px $white;
   }
 }
 
 .row {
-    background: yellow;
-    margin: 0;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }

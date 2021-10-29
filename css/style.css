@@ -5727,13 +5727,12 @@ footer {
           flex-direction: row;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  height: 44px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background-color: #f4f3ee;
-  margin-top: 2rem;
-  font-size: 0.8em;
-  color: #6a6a6a;
+  font-family: "open sans", sans-serif;
+  color: #463F3A;
   padding: 0.5em;
 }
 
@@ -5759,16 +5758,23 @@ footer {
   width: 357px;
   height: 357px;
   background: #f4f3ee;
-  margin: 5px;
+  margin: 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .col-lg--style1 {
   background: white;
-  border-style: solid 1px #C32C72;
+  border: solid 3px #C32C72;
+}
+
+.col-lg--style2 {
+  background: #C32C72;
+  border: solid 3px #fff;
 }
 
 .row {
-  background: yellow;
   margin: 0;
   width: 100%;
   -webkit-box-pack: center;
@@ -5781,30 +5787,50 @@ footer {
 
 h1, .h1 {
   font-family: "open sans", sans-serif;
-  font-size: 1.8em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  color: #6a6a6a;
+  font-size: 34px;
+  padding: 45px 0;
+  color: #463F3A;
+  text-align: center;
 }
 
 .navbar-brand {
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 75px;
   font-size: 32px;
-  color: #6a6a6a !important;
+  color: #463F3A !important;
 }
 
 .navbar {
-  color: #6a6a6a;
+  color: #463F3A;
   text-transform: uppercase;
   background-color: #f4f3ee;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: #6a6a6a !important;
-  font-size: 15px;
+.navbar-nav {
+  padding-right: 50px;
 }
 
 .navbar-collapse {
   z-index: 1;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+#navbarNav {
+  padding-left: 75px;
+}
+
+.navbar-toggler-icon {
+  color: #463F3A;
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+  color: #C32C72;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
