@@ -9,6 +9,7 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
+  
 }
 
 footer {
@@ -25,9 +26,9 @@ footer {
 
 .wrapper {
   flex: 1 0 auto;
+   z-index: 1;
 }
 .container {
-  z-index: 1;
   margin-bottom: 110px;
 }
 
