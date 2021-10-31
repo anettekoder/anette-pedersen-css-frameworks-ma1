@@ -5730,7 +5730,7 @@ footer {
   height: 44px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #fff;
+  background-color: #f4f3ee;
   font-family: "open sans", sans-serif;
   color: #463F3A;
   padding: 0.5em;
@@ -5757,6 +5757,7 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     height: 92px;
+    background-color: #fff;
   }
 }
 
