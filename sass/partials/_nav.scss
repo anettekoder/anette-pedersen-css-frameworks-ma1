@@ -1,14 +1,12 @@
-.navbar-brand {
-  font-family: "Open Sans", sans-serif;
-  padding-left: 75px;
-  font-size: 32px;
-  color: $primary !important;
-}
-
 .navbar {
   color: $primary;
   text-transform: uppercase;
   background-color: $light;
+}
+
+.navbar-brand {
+  padding-left: 75px;
+  text-decoration: none;
 }
 
 .navbar-nav {
@@ -34,7 +32,6 @@
 .navbar-light .nav-item .nav-link:active,
 .navbar-light .nav-item .nav-link:focus,
 .navbar-light .nav-item:hover .nav-link {
-    color: $secondary;
-    border: none;
-
+  color: $secondary;
+  border: none;
 }
